@@ -96,7 +96,7 @@ export default function handler(req: any, res: any) {
     }
 
     const kwh = ultima.poupanca_kwh;
-    const eur = kwh * 0.21;
+    const eur = Math.round(kwh * 21) / 100;
     let mensagem: string;
     if (ultima.status_alerta === "OK") {
       mensagem = lang === "en"
