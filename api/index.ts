@@ -8,7 +8,7 @@ const ADMIN_PIN = process.env.GREEN_ADMIN_PIN || "3662";
 type Alerta = "Crítico" | "OK";
 
 const dbUtilizadores = [
-  { id: 1, nome: "Zélia Reis", email: "demo@greenscore.app", cpe: "PT0002000012345678AB", creditos_acumulados: 3662 },
+  { id: 1, nome: "Exemplo", email: "demo@greenscore.app", cpe: "PT0002000012345678AB", creditos_acumulados: 3662 },
 ];
 
 const dbPostos = [
