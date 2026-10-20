@@ -23,7 +23,7 @@ export default function App() {
 
   const [user, setUser] = useState<Utilizador>({
     id: 1,
-    nome: 'Zélia Reis',
+    nome: 'Exemplo',
     email: 'zmcrnc@gmail.com',
     cpe: 'PT0002000012345678AB',
     creditos_acumulados: 3662
